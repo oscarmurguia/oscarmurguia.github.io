@@ -4,7 +4,7 @@ export const SITE: Site = {
   title: 'Devopscar Blog',
   description:
     'Great blog about devops',
-  href: 'https://devopscar.xyz',
+  href: 'https://oscarmurguia.github.io',
   author: 'oscarmurguia',
   locale: 'en-US',
   featuredPostCount: 2,
