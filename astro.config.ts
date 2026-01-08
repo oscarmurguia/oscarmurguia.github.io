@@ -19,8 +19,9 @@ import { pluginLineNumbers } from '@expressive-code/plugin-line-numbers'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  site: 'https://yourdomain.com', // Update with your domain
-  // Static output - API routes are handled by Cloudflare Pages Functions in /functions folder
+  site: 'https://oscarmurguia.github.io',
+  output: 'static',
+  // Static output for GitHub Pages
   integrations: [
     expressiveCode({
       themes: ['github-light', 'github-dark'],
